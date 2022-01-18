@@ -13,7 +13,6 @@ header ion-icon{
 
 .logo{
     display: flex;
-    align-items: flex-start;
 }
 
 .logo-instagram{
@@ -34,3 +33,21 @@ header ion-icon{
     align-items: center;
 }
 
+@media (max-width: 614px) {
+    .compass-outline, 
+    .heart-outline,
+    .person-outline,
+    .search{
+        display: none;
+    }
+
+    .logo-instagram{
+        border: none;
+    }
+
+    .logo{
+        justify-content: space-between;
+        width: 55%;
+    }
+
+}
