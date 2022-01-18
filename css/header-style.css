@@ -4,6 +4,8 @@ header{
     align-items: center;
     height: 4rem;
     background-color: #FFFFFF;
+    position: fixed;
+    width: 100%;
 }
 
 header ion-icon{
