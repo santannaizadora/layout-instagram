@@ -1,18 +1,37 @@
 .stories{
-    width: 80%;
-    height: 13vh;
-    background-color: blue ;
-    overflow-x: hidden;
-    margin-top: 16vh;
+    width: 100%;
+    height: 15vh;
+    background-color: #FFFFFF ;
+    margin-top: 5vh;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #DBDBDB;
 }
 
-.stories {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
+
 .stories img {
     border-radius: 50%;
+    
+}
+
+.storie{
+    margin: 1vw;
+    text-overflow: ellipsis;
+    text-align: center;
+
+}
+.chevron-forward-circle-outline{
+    font-size: 5.5vh;
+    position: absolute;
+    color: rgba(220, 220, 220, 1);
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    box-shadow: 0 0 1.5em gray;
+    z-index: 50;
+    left: 60.5vw;
+    top: 21vh;
+
 }
 
 .storie .arco {
@@ -26,4 +45,10 @@
     margin-left: 0.5vh;
     margin-top: 0.5vh;
     position: relative;
+}
+
+@media (max-width: 600px){
+    .chevron-forward-circle-outline{
+        display: none;
+    }
 }

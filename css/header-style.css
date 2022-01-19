@@ -5,7 +5,9 @@ header{
     height: 4rem;
     background-color: #FFFFFF;
     position: fixed;
-    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 header ion-icon{
