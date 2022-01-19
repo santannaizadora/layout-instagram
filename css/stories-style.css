@@ -22,15 +22,13 @@
 
 }
 .chevron-forward-circle-outline{
-    font-size: 5.5vh;
+    font-size: 5vh;
     position: absolute;
-    color: rgba(220, 220, 220, 1);
-    background-color: #FFFFFF;
+    color: #DBDBDB;
+    background-color: rgb(255, 255, 255);
     border-radius: 50%;
-    box-shadow: 0 0 1.5em gray;
-    z-index: 50;
-    left: 60.5vw;
-    top: 21vh;
+    left:50vw;
+    top: 5vh;
 
 }
 

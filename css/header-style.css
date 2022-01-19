@@ -4,6 +4,7 @@ header{
     align-items: center;
     height: 4rem;
     background-color: #FFFFFF;
+    z-index: 1;
     position: fixed;
     top: 0;
     left: 0;
