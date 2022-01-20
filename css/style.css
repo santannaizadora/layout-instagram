@@ -5,23 +5,47 @@ body{
 }
 
 .page{
-    width: 80vw;
+    width: 935px;
     height: 100%;
+    margin: 0 auto;
     margin-top: 4rem;
-    margin-left: auto;
-    margin-right: auto;
     display: flex;
     justify-content: space-between;
+
 }
 
 .content{
-    width: 68%;
+    width: 614px;
     height: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
 }
 
 .sidebar{
-    width: 30%;
+    margin-top: 5vh;
+    width: 293px;
     height: 100%;
+    
+}
+
+.sidebar section{
+    width: 293px;
+    height: 30%;
+    background-color: red;
+    position: fixed;
+
+}
+
+@media (max-width: 935px){
+    .sidebar{
+        display: none;
+    }
+
+    .content{
+        width: 100%;
+    }
+
+    .page{
+        width: 80%;
+    }
 }

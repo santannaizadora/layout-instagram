@@ -1,48 +1,53 @@
 .stories{
-    width: 100%;
-    height: 15vh;
-    background-color: #FFFFFF ;
+    width: 614px;
+    height: 14vh;
+    background-color: #FFF ;
     margin-top: 5vh;
     display: flex;
-    position: relative;
     overflow: hidden;
     border: 1px solid #DBDBDB;
-}
-
-
-.stories img {
-    border-radius: 50%;
-    
+    position: relative;
+    align-items: center;
 }
 
 .storie{
-    margin: 1vw;
-    text-overflow: ellipsis;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    font-size: 2vh;
+}
 
+.stories img {
+    border-radius: 50%;
+    width: 7.75vh;
+    
+}
+
+.background-storie{
+    width: 8.75vh;
+    height: 8.75vh;
+    background-image: url("../img/stories_background.jpg");
+    background-size: 8.75vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2px;
+    border-radius: 50%;
 }
 .chevron-forward-circle-outline{
-    font-size: 5vh;
     position: absolute;
-    color: #DBDBDB;
-    background-color: rgb(255, 255, 255);
-    border-radius: 50%;
-    left:50vw;
-    top: 5vh;
-
+    right: 1vw;
+    color: #f1f1ebd4;
+    font-size: 30px;
 }
 
-.storie .arco {
-    height: 10vh;
-    width: 10vh;
-    position: absolute;
-}
-.storie .foto {
-    height: 9vh;
-    width: 9vh;
-    margin-left: 0.5vh;
-    margin-top: 0.5vh;
-    position: relative;
+@media(max-width:935px){
+    .stories{
+        width: 100%;
+    }
 }
 
 @media (max-width: 600px){
