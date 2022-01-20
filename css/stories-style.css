@@ -15,7 +15,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 10px;
+    margin-left: 1vw;
     font-size: 2vh;
 }
 
@@ -34,14 +34,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 2px;
+    margin-bottom: 0.2vh;
     border-radius: 50%;
+    position: relative;
 }
 .chevron-forward-circle-outline{
     position: absolute;
     right: 1vw;
     color: #f1f1ebd4;
-    font-size: 30px;
+    font-size: 4.5vh;
 }
 
 @media(max-width:935px){
