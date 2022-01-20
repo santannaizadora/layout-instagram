@@ -47,11 +47,18 @@
 @media(max-width:935px){
     .stories{
         width: 100%;
+        background-color: ;
+        border: none;
     }
 }
 
 @media (max-width: 600px){
     .chevron-forward-circle-outline{
         display: none;
+    }
+
+    .stories{
+        background-color:#E5E5E5 ;
+        border: none;
     }
 }
