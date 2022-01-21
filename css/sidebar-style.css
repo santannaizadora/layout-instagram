@@ -1,0 +1,36 @@
+.user-profile img {
+    width: 7.75vh;
+    border-radius: 50%;
+    margin-right: 0.5vw;
+}
+
+.user-profile {
+    display: flex;
+    margin-top: 2.5vh;
+    align-items: center;
+}
+
+.suggestion {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2vh;
+}
+
+.suggestion-profiles img {
+    border-radius: 50%;
+    width: 4vh;
+    margin-right: 0.5vw;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2vh;
+}
+
+.profile-user {
+
+    display: flex;
+    align-items: center;
+}

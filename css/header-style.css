@@ -32,6 +32,9 @@ header ion-icon{
     padding-right: 00.5rem;
     border-right: 1px solid #DBDBDB;
 }
+.logo-mobile{
+    display: none;
+}
 
 .search{
     display: flex;
@@ -55,7 +58,8 @@ header ion-icon{
     .compass-outline, 
     .heart-outline,
     .person-outline,
-    .search{
+    .search,
+    .logo-desktop{
         display: none;
     }
 
@@ -63,9 +67,11 @@ header ion-icon{
         border: none;
     }
 
-    .logo{
-        justify-content: space-between;
-        width: 55%;
+
+    .logo-mobile{
+        display: flex;
     }
+
+    
 
 }
