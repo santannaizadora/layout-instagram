@@ -14,6 +14,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 2vh;
+    font-size: 1.9vh;
 }
 
 .suggestion-profiles img {
@@ -27,10 +28,24 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 2vh;
+    font-size: 1.9vh;
+}
+
+.smaller-font{
+    font-size: 1.75vh;
 }
 
 .profile-user {
 
     display: flex;
     align-items: center;
+}
+
+.footer{
+    font-size: 1.5vh;
+    margin-top: 3vh;
+}
+
+.footer p{
+    margin-bottom: 3vh;
 }

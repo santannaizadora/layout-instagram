@@ -1,6 +1,6 @@
 .stories{
     width: 614px;
-    height: 14vh;
+    height: 16vh;
     background-color: #FFF ;
     margin-top: 5vh;
     display: flex;
@@ -11,25 +11,26 @@
 }
 
 .storie{
+    width: 10.75vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-left: 1vw;
-    font-size: 2vh;
+    font-size: 1.75vh;
 }
 
 .stories img {
     border-radius: 50%;
-    width: 7.75vh;
+    width: 9vh;
     
 }
 
 .background-storie{
-    width: 8.75vh;
-    height: 8.75vh;
+    width: 10.75vh;
+    height: 10.75vh;
     background-image: url("../img/stories_background.jpg");
-    background-size: 8.75vh;
+    background-size: 10.75vh;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
@@ -38,11 +39,17 @@
     border-radius: 50%;
     position: relative;
 }
+
+.username{
+    max-width: 10.75vh;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 .chevron-forward-circle-outline{
     position: absolute;
     right: 1vw;
     color: #FFF;
-    font-size: 4.5vh;
+    font-size: 5vh;
     filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7))
 }
 

@@ -38,6 +38,11 @@
 
 }
 
+.post-video video{
+    width: 100%;
+
+}
+
 .bottom-post{
     height: 10vh;
     width: 95%;
