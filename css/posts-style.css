@@ -67,6 +67,25 @@
     margin-right: 0.5vw;
 }
 
+.comments{
+    margin-left: 1vw;
+}
+
+.comment{
+    margin-top: 1vh;
+}
+
+.post-comment{
+    width: 100%;
+    margin-top: 1.5vh;
+}
+
+.post-comment input{
+    width: 98.7%;
+    height: 4vh;
+    color: #8E8E8E;
+}
+
 @media (max-width: 935px){
 
     .posts{
